@@ -116,17 +116,37 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pages_home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/home */ \"./src/pages/home.js\");\n\r\n\r\ndocument.querySelector(\".container\").appendChild((0,_pages_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack://odin-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page/home */ \"./src/page/home.js\");\n/* harmony import */ var _page_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./page/menu */ \"./src/page/menu.js\");\n/* harmony import */ var _page_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./page/contact */ \"./src/page/contact.js\");\n // returns div element\r\n\r\n\r\n\r\nconst contentElement = document.querySelector(\".content\");\r\n\r\n\r\ndocument.querySelector(\"#home-btn\").addEventListener(\"click\", e => {\r\n    contentElement.textContent = '';\r\n    contentElement.appendChild((0,_page_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n});\r\n\r\ndocument.querySelector(\"#menu-btn\").addEventListener(\"click\", e => {\r\n    contentElement.textContent = '';\r\n    contentElement.appendChild((0,_page_menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\r\n});\r\n\r\ndocument.querySelector(\"#contact-btn\").addEventListener(\"click\", e => {\r\n    contentElement.textContent = '';\r\n    contentElement.appendChild((0,_page_contact__WEBPACK_IMPORTED_MODULE_2__[\"default\"])());\r\n});\r\n\n\n//# sourceURL=webpack://odin-restaurant/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/pages/home.js":
-/*!***************************!*\
-  !*** ./src/pages/home.js ***!
-  \***************************/
+/***/ "./src/page/contact.js":
+/*!*****************************!*\
+  !*** ./src/page/contact.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homeComponent)\n/* harmony export */ });\n/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/home.css */ \"./src/css/home.css\");\n\r\nfunction homeComponent() {\r\n    let element = document.createElement('div');\r\n    element.textContent = \"Hello\";\r\n    element.className = \"red\";\r\n    return element;\r\n}\n\n//# sourceURL=webpack://odin-restaurant/./src/pages/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact() {\r\n    let div = document.createElement(\"div\");\r\n    div.textContent = \"contact\";\r\n    return div;\r\n}\n\n//# sourceURL=webpack://odin-restaurant/./src/page/contact.js?");
+
+/***/ }),
+
+/***/ "./src/page/home.js":
+/*!**************************!*\
+  !*** ./src/page/home.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\n/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/home.css */ \"./src/css/home.css\");\n\r\nfunction home() {\r\n    let element = document.createElement('div');\r\n    element.textContent = \"home\";\r\n    element.className = \"red\";\r\n    return element;\r\n}\n\n//# sourceURL=webpack://odin-restaurant/./src/page/home.js?");
+
+/***/ }),
+
+/***/ "./src/page/menu.js":
+/*!**************************!*\
+  !*** ./src/page/menu.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu() {\r\n    let div = document.createElement(\"div\");\r\n    div.textContent = \"Menu\";\r\n    return div;\r\n}\r\n\n\n//# sourceURL=webpack://odin-restaurant/./src/page/menu.js?");
 
 /***/ })
 

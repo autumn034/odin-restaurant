@@ -1,7 +1,7 @@
 import '../css/home.css';
-export default function homeComponent() {
+export default function home() {
     let element = document.createElement('div');
-    element.textContent = "Hello";
+    element.textContent = "home";
     element.className = "red";
     return element;
 }
