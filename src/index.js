@@ -1,1 +1,3 @@
-console.log("123")
+import homeComponent from "./pages/home";
+
+document.querySelector(".container").appendChild(homeComponent());
