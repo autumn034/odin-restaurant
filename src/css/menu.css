@@ -1,0 +1,14 @@
+.menu {
+    background-color: #4C818C;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+}
+
+
+.menu-header {
+    color: inherit;
+    font-size: 3rem;
+}
+

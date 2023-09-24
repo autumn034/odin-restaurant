@@ -1,3 +1,69 @@
-.red {
-    color: red;
+:root {
+    font-size: 18px;
+    background-color: #003349;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    box-sizing: border-box;
+    background-color: white;
+    width: 100vw;
+    padding: 16px;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #003349;
+}
+
+.nav-logo {    
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: -0.1rem;
+    margin-right: 32px;
+    cursor: default;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: inherit;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.home-info {
+    background-image: url('../img/home-bg.png');
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info-header {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 20vh;
+    text-align: center;
+    text-shadow: 3px 3px 16px black;
 }
