@@ -4,7 +4,7 @@ import contact from "./page/contact";
 import "./css/index.css";
 
 const contentElement = document.querySelector(".content");
-contentElement.appendChild(home());
+contentElement.appendChild(contact());
 
 document.querySelector("#home-btn").addEventListener("click", e => {
     contentElement.textContent = '';

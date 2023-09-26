@@ -1,0 +1,36 @@
+.contact {
+    color: #003349;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    max-width: var(--app-max-width);
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.contact-header {
+    color: inherit;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 16px;
+}
+
+.contact-info {
+    flex: fit-content;
+    font-size: 1.2rem;
+}
+
+.contact-img {
+    flex: 1 1 100%;
+}
+
+.contact-img img {
+    width: 100%;
+    height: auto;
+}
+
