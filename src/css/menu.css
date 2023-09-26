@@ -1,14 +1,51 @@
 .menu {
-    background-color: #4C818C;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #003349;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    max-width: var(--app-max-width);
 
-    display: flex;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 
 .menu-header {
     color: inherit;
-    font-size: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4px;
 }
 
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33%;
+    max-width: 34%;
+}
+
+.menu-item-container {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.menu-item-img {
+    background-color: #e6e6e6;    
+}
+
+.menu-item-img img {    
+    width: 100%;
+    height: auto;
+}
+
+.menu-item-info {
+    margin-left: 1px;
+}
+
+.menu-item-info-name {
+    font-size: 1.2rem;
+}
+
+.menu-item-info-price {
+    font-size: 1rem;
+}
